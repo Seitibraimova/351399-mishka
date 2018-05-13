@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Lemara Seitibraimova](https://up.htmlacademy.ru/adaptive/14/user/351399).
-* Наставник: [LSD](https://up.htmlacademy.ru/adaptive/14/user/351399).
+* Наставник: [LSD555](https://up.htmlacademy.ru/adaptive/14/user/351399).
 
 ---
 
