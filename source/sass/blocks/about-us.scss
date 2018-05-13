@@ -1,0 +1,174 @@
+.about-us {
+  width: 81.25%;
+  margin: 75px auto 0 auto;
+  padding: 0 9.375%;
+  text-align: start;
+  min-width: 260px;
+}
+
+.about-us__title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: -2px;
+}
+
+.about-us__list {
+  margin: 88px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about-us__item {
+  line-height: 20px;
+  margin-top: 83px;
+  width: 79%;
+  position: relative;
+
+  svg {
+    position: absolute;
+    content: "";
+    top: -55px;
+    left: 3px;
+    fill: #63d1bb;
+  }
+
+  &:first-child {
+    margin-top: 0;
+    width: 69%;
+
+    svg {
+      width: 32px;
+      height: 37px;
+      left: 8px;
+    }
+  }
+
+  &:nth-child(2) {
+    svg {
+      width: 47px;
+      height: 27px;
+      top: -54px;
+      left: 0;
+    }
+  }
+
+  &:nth-child(3) {
+    svg {
+      width: 34px;
+      height: 27px;
+      left: 8px;
+      top: -50px;
+    }
+  }
+
+  &:nth-child(4) {
+    width: 95%;
+
+    svg {
+      width: 35px;
+      height: 34px;
+      top: -52px;
+    }
+  }
+
+  &:nth-child(5) {
+    width: 100%;
+
+    svg {
+      width: 55px;
+      height: 23px;
+      left: -6px;
+      top: -50px;
+    }
+  }
+
+  &:nth-child(6) {
+    svg {
+      width: 33px;
+      height: 32px;
+      top: -52px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .about-us {
+    width: 87%;
+    padding: 0 6.5%;
+    margin-top: 118px;
+  }
+
+  .about-us__title {
+    font-size: 43px;
+    line-height: 50px;
+    margin: 0 0 0 -5px;
+  }
+
+  .about-us__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: -6px;
+  }
+
+  .about-us__item {
+    font-size: 20px;
+    line-height: 22px;
+    width: 50%;
+    margin-top: 110px;
+    box-sizing: border-box;
+
+    &:nth-child(1) {
+      order: 1;
+      margin-top: 110px;
+      width: 34%;
+    }
+
+    &:nth-child(2) {
+      order: 3;
+      width: 36%;
+    }
+
+    &:nth-child(3) {
+      order: 5;
+      width: 34%;
+    }
+
+    &:nth-child(4) {
+      order: 2;
+      width: 50%;
+      padding-right: 10.5%;
+    }
+
+    &:nth-child(5) {
+      order: 4;
+      width: 50%;
+    }
+
+    &:nth-child(6) {
+      order: 6;
+      width: 50%;
+      padding-right: 10.5%;
+    }
+  }
+}
+
+@media (min-width: 1250px) {
+  .about-us {
+    width: 56%;
+    max-width: 1250px;
+    margin: 155px auto 0 auto;
+    padding: 0;
+  }
+
+  .about-us__title {
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .about-us__item {
+    &:first-child {
+      padding-right: 30px;
+    }
+  }
+}
